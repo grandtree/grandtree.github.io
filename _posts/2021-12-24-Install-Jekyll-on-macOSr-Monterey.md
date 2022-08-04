@@ -2,7 +2,7 @@
 layout: post
 title:  "Install Jekyll on macOS Monterey"
 date:   2021-12-24 16:24:00 +0800
-tags: [Jekyll, macOS, GitHub Pages] 
+tags: [Jekyll, macOS, GitHub Pages]
 ---
 I encountered several issues when setting up this blog web site, so it is a good
 topic for my first post. 
