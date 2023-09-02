@@ -127,10 +127,10 @@ mapping table for kernel versions and SLES versions (until SLES 15 SP4)
 
 [linux-git]: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/
 
-[build-kernel-4.4-sles-12-sp3]: http://localhost:4000/2023/02/22/Build-kernel-4-4-sles-12-sp3.html
+[build-kernel-4.4-sles-12-sp3]: http://blog.quyi.buzz/2023/02/22/Build-kernel-4-4-sles-12-sp3.html
 
-[build-kernel-5.19-leap-15-sp3]: http://localhost:4000/2023/02/22/Build-kernel-5-19-leap-15-sp3.html
+[build-kernel-5.19-leap-15-sp3]: https://blog.quyi.buzz/2023/02/22/Build-kernel-5-19-leap-15-sp3.html 
 
-[build-kernel-5.19-leap-15-sp2]: http://localhost:4000/2023/02/22/Build-kernel-5-19-leap-15-sp2.html
+[build-kernel-5.19-leap-15-sp2]: http://blog.quyi.buzz/2023/02/22/Build-kernel-5-19-leap-15-sp2.html
 
 [flavors]: https://en.opensuse.org/Kernel
