@@ -112,7 +112,6 @@ make: *** [/usr/src/linux-5.19.0-rc1-1.g515f42c/Makefile:1853: certs] Error 2
 ```
 In fact, kernel build system should generate this key file for me, but here it fails for some reason. 
 
-Refer to Build kernel 15.9 on OpenSUSE Leap 15 SP2 for kernel module signature feature:
 ```
 linux-fy00:~/build_kernel/linux-5.19.0-rc1-1.g515f42c # grep CONFIG_MODULE_SIG .config        
 CONFIG_MODULE_SIG_FORMAT=y
