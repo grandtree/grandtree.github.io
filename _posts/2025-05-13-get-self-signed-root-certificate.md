@@ -4,14 +4,13 @@ title:  "Get self signed root certificate"
 tags: Network Security 
 ---
 
-It is common that in daily work of a devloper we encounter internal web server
-using self signed certificate, because our web browser and OS used don't accept
-it for obvious reason, we have to do one more two clicks to accept the risk or
-tell script code to ignore certificate check. One soltuion is that we broadcast the root
-certificate (of course the public one) used to sign these certificates, but in
-fact there is no need for this, according to the implementation of PKI, a full
-chain of certificates involved in signing are sent from server, we only need to
-get the root with some tools. In this article, I will show how-to with 2 tools. 
+Dealing with internal web servers that use self-signed certificates is a common
+challenge for developers. Because these certificates are not trusted by default,
+users are forced to accept security risks or disable crucial certificate checks.
+The good news is, there is a solution: obtain the public one of root certificate
+used to sign the server certificates. Since the server sends the full
+certificate chain according to PKI, the root can be extracted with the right
+tools. In this article, I will show how-to with 2 tools. 
 
 In the examples above, I am using one web server of mine (https://vultr.quyi.buzz:2320) 
 and 2 certificates:
