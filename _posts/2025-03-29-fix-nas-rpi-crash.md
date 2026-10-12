@@ -30,20 +30,20 @@ The test ran in a `screen` session:
 This is the state before the start of the test, when there was only one main
 thread of the samba server:
 
-![Before the test](/assets/images/2025-03-29/nas_crash_before_test.jpg)
+![Before the test](/assets/images/2025-03-29/nas_crash_before_test.JPG)
 
 After the start of the test, the number of samba server threads climbs:
 
-![Start of increasing number of tasks](/assets/images/2025-03-29/nas_crash_in_test_0.jpg)
+![Start of increasing number of tasks](/assets/images/2025-03-29/nas_crash_in_test_0.JPG)
 
 This is the snapshot just before the crash: there were 67 threads, and the
 1-minute load average was 64. Note that the RPi 4B only has 4 cores!
 
-![Just before the crash](/assets/images/2025-03-29/nas_crash_in_test_1.jpg)
+![Just before the crash](/assets/images/2025-03-29/nas_crash_in_test_1.JPG)
 
 This is the relic after the crash:
 
-![After the crash](/assets/images/2025-03-29/nas_crash_after_test.jpg)
+![After the crash](/assets/images/2025-03-29/nas_crash_after_test.JPG)
 
 Obviously, the samba server **spawned too many threads, which were
 unaffordable for this tiny machine**.
@@ -66,7 +66,7 @@ Default: aio max threads = 100
 After changing this value to 10, the 62 GB file in the test could be copied to
 my NAS smoothly:
 
-![With fix](/assets/images/2025-03-29/nas_crash_fixed.jpg)
+![With fix](/assets/images/2025-03-29/nas_crash_fixed.JPG)
 
 # Reference
 
